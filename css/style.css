@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+table,td,th{
+    border: 1px solid #333;
+}
+table{
+    width: 80%;
+    text-align: center;
+}
+
+.input{
+    margin-top: 50px;
+}
+.input-item{
+    margin: 10px 0;
+}
+
+.btn-submit{
+    padding:12px 20px;
+    margin-top: 20px;
+    font-size:16px;
+    font-weight:bold;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s linear;
+}
+.btn-submit:hover{
+    transform: scale(0.96,0.96);
+    opacity: 0.8;
+}
